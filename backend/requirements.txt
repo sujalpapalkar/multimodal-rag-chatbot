@@ -1,0 +1,19 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+python-multipart
+lxml
+pymupdf
+
+# --- Core RAG Libraries ---
+unstructured[all-docs]
+langchain
+langchain-community
+langchain-openai
+
+# --- Vector Store ---
+pinecone-client
+langchain-pinecone
+
+# --- Web Search ---
+google-search-results
